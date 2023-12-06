@@ -10,6 +10,17 @@ There are 3 main operations the API supports:
 * Add a New Book
 
     ```Endpoint: POST /api/books```
+    Request Body:
+    JSON object with the required book details
+    Example:
+    ```
+    {
+        "author": "Anonymous",
+        "book_id": "4",
+        "name": "In Search of Closure"
+    }
+    ```
+
 * Update Book Details
 
     ```Endpoint: PUT /api/books/{id}```
