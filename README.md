@@ -48,5 +48,10 @@ Start the server
   python api.py
 ```
 
-Users can make the requests using postman or curl on the server url
+Users can make the requests using postman or curl on the server URL
 
+
+Populate the database with dummy books by making a get request
+```
+GET /api/books/addBooks
+```
